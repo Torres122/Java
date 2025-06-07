@@ -1,4 +1,4 @@
-package org.Model.database;
+package org.database;
 
 import org.Model.exception.DaoException;
 
@@ -9,7 +9,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.Properties;
 
-public class db {
+public class Db {
 
 
     public static Connection getConnectionDb() {
